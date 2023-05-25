@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quemsomos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Quem somos nós</title>
+</head>
+<body onresize="changeSize()">
+    <header id="header">
+        <img src="imagens/logo.png" alt="logo">
+    </header>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="menu">
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="quemsomos.html">Quem somos nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="redes-sociais.html">Redes Sociais</a></li>
+        </ul>
+    </menu>
+    <main>
+        <section id="sec1">
+            <h1>FJ FEST</h1>
+            <article id="art1">
+                    <h2>Quem somos nós?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere ratione ex doloribus, consequuntur quisquam voluptas qui ipsa illum commodi, minus sit! Fugit a dignissimos sapiente dolore quibusdam minima distinctio.
+                    Vero nobis consectetur, voluptatem laborum dolorum earum, voluptatum, possimus quidem ipsa nemo ullam. Delectus maxime ducimus aliquid, distinctio commodi voluptatibus perferendis quasi, voluptates facere, recusandae fugiat nobis? Animi, optio consectetur!</p>
+            </article>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="index.html">Página Inical</a></li>         
+            </ul>
+            <p><strong>CONTATO</strong></p>
+            <p><strong>+55 (11) 91111-2222</strong></p>
+        </footer>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+
+        function changeSize() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
