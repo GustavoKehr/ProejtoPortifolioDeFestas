@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" media="screen">
+    <link rel="stylesheet" href="styles/media-queries.css">
     <link href="https://fonts.cdnfonts.com/css/adobe-clean" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <title>Locação de brinquedos</title>
@@ -26,10 +27,12 @@
         <section id="sec1">
             <h1>FJ FEST</h1>
             <article id="art1">
-                    <p>Venha conferir nossos artigos para festas infantis</p>
-                    <img src="imagens/camae.png" alt="cama-elastica" class="brinq1">
-                    <p><strong>CAMA ELASTICA</strong></p>
-                    <p>Valor: <strong>R$200,00</strong> por dia</p>
+                    <h1>Venha conferir nossos artigos para festas infantis</h1>
+                    <section class="sec1" id="s1">
+                        <img src="imagens/camae.png" alt="cama-elastica" class="brinq1">
+                        <p><strong>CAMA ELASTICA</strong></p>
+                        <p>Valor: <strong>R$200,00</strong> por dia</p>
+                    </section>
                 <section class="sec1">
                     <img src="imagens/pulapula.png" alt="pula-pula" class="brinq">
                     <p><strong>PULA-PULA</strong></p>
@@ -58,11 +61,11 @@
             </article>
         </section>
         <footer>
+            
             <ul>
-                <li><a href="#header">Página Inical</a></li>         
+                <li><p><strong>CONTATO +55 (11) 91111-2222</strong></p></li>
             </ul>
-            <p><strong>CONTATO</strong></p>
-            <p><strong>+55 (11) 91111-2222</strong></p>
+            
         </footer>
     </main>
     <script>
@@ -75,7 +78,7 @@
         }
 
         function changeSize() {
-            if (window.innerWidth >= 768) {
+            if (window.innerWidth >= 586) {
                 menu.style.display = 'block'
             } else {
                 menu.style.display = 'none'

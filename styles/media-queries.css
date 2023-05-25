@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+:root {
+	--cor1: #40300C;
+	--cor2: #716237;
+	--cor3: #DAB870;
+	--cor4: #F2D68C;
+	--fonte1: 'Adobe Clean UX', sans-serif;
+	--fonte2: 'Work Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+@media screen and (min-width: 586px)  and (max-width: 992px){
+
+
+	body {
+		background-color: white;
+	}
+	span#burguer {
+	display: none;
+	}
+	menu {
+	background-color: white;
+	display: inline;
+	border: 0;
+	padding-top: 0;
+	}
+	menu li {
+	display: inline-block;
+	}
+
+	menu > ul > li > a {
+	margin: auto;
+	text-decoration: none;
+	color: white;
+	background-color: var(--cor1);
+	padding: 8px;
+	border-radius: 5px;
+	width: 150px;
+	}
+
+	main > section#sec1 {
+	border-top: 1px solid black;
+	}
+	footer {
+		margin-top: 19.6vh;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+	body {
+		background-color: white;
+	}
+	span#burguer {
+	display: none;
+	}
+	menu {
+	display: inline;
+	background-color: white;
+	border: 0;
+	padding-top: 0;
+	}
+	menu li {
+	display: inline-block;
+	}
+
+	menu > ul > li > a {
+	margin: auto;
+	text-decoration: none;
+	color: white;
+	background-color: var(--cor1);
+	padding: 8px;
+	border-radius: 5px;
+	width: 150px;
+	}
+
+	main > section#sec1 {
+	border-top: 1px solid black;
+	}
+	
+	footer {
+		margin-top: 19.6vh;
+	}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1980px) {
+	body {
+		background-color: white;
+	}
+	span#burguer {
+		display: none;
+		}
+		menu {
+		display: inline;
+		background-color: white;
+		border: 0;
+		padding-top: 0;
+		}
+		menu li {
+		display: inline-block;
+		}
+		
+
+		menu > ul > li > a {
+		margin: auto;
+		text-decoration: none;
+		color: white;
+		background-color: var(--cor1);
+		padding: 8px;
+		border-radius: 5px;
+		width: 150px;
+		}
+	
+		main > section#sec1 {
+		border-top: 1px solid black;
+		}
+
+		section.sec1 {
+			display: inline-block;
+		}
+
+		.sec1 > img {
+			width: 250px;
+			height: 250px;
+		}
+
+		footer {
+			margin-top: 26.3vh;
+		}
+
+		footer > ul > li > p {
+			color: white;
+		}
+
+		
+
+}

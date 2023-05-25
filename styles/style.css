@@ -36,7 +36,7 @@ html, body {
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor2);
+    background-color: white;
 }
 
 header {
@@ -54,9 +54,8 @@ header > img {
 }
 
 menu {
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     text-align: center;
-    padding: 10px;
     border-bottom: 1px solid black;
 }
 
@@ -65,6 +64,11 @@ menu > ul > li {
     list-style-type: none;
     padding: 10px;
     
+}
+
+menu > ul > li > a:hover {
+    background-color: var(--cor4);
+    text-decoration: underline;
 }
 
 menu > ul > li > a {
@@ -86,17 +90,23 @@ main > section > h1 {
     margin-top: 10px;
 }
 
+main > section > article > h1 {
+    font-size: 22pt;
+    font-family: var(--fonte1);
+}
+
 main > section#sec1 > article#art1 {
     margin-top: 10px;
     text-align: center;
 }
 
 menu {
-  display: none;
+    display: none;
 }
 
 span#burguer {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
+    color: white;
     display: block;
     text-align: center;
     padding: 5px;
@@ -125,6 +135,17 @@ main > section#sec1 > article#art1 p {
     margin-top: 20px;
 }
 
+
+.sec1 img {
+    margin-top: 100px;
+}
+
+footer {
+    margin-top: 19.3vh;
+}
+
+
+
 footer > ul > li {
   text-align: center;
   background-color: var(--cor1);
@@ -138,7 +159,6 @@ footer > ul > li > a {
 
 footer > p {
   text-align: center;
-  margin-top: 10px;
   color: white; 
 }
 

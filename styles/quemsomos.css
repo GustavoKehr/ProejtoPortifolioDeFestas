@@ -36,7 +36,7 @@ html, body {
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor2);
+    background-color: white;
 }
 
 header {
@@ -54,7 +54,7 @@ header > img {
 }
 
 menu {
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid black;
@@ -96,7 +96,8 @@ menu {
 }
 
 span#burguer {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
+    color: white;
     display: block;
     text-align: center;
     padding: 5px;
@@ -119,13 +120,19 @@ main > section#sec1 > article#art1 > p {
     line-height: 1.4em;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer > ul > li {
     text-align: center;
     background-color: var(--cor1);
     padding: 10px;
 }
 
-footer > ul > li > a {
+footer > ul > li > p {
     color: white;
     text-decoration: none;
 }
