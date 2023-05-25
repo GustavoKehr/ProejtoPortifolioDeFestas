@@ -95,6 +95,11 @@ menu {
     display: none;
 }
 
+menu > ul > li > a:hover {
+    background-color: var(--cor4);
+    text-decoration: underline;
+}
+
 span#burguer {
     background-color: var(--cor1);
     color: white;

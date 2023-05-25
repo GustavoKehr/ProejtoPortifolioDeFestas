@@ -61,6 +61,11 @@ menu {
     border-bottom: 1px solid black;
 }
 
+menu > ul > li > a:hover {
+    background-color: var(--cor4);
+    text-decoration: underline;
+}
+
 menu > ul > li {
     
     list-style-type: none;
